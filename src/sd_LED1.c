@@ -8,7 +8,6 @@ void SD_LED1(LED *state){
 		case Initial:
 				state->getLEDStatus = LED_ON;
 				state->stateLED = STATE_A;
-
 			break;
 		case STATE_A:
 			if(delay() >= 120){

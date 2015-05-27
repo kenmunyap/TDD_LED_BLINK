@@ -1,8 +1,6 @@
 #ifndef __INFOLED_H
 #define __INFOLED_H
 
-
-
 typedef enum{
 	Initial,
 	STATE_A,
